@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_calendario.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagenes/png/logo-F1.png" type="image/x-icon">
+    <title>Formula 1</title>
+</head>
+<body>
+    <header class="header">
+      <div class="topnav" id="myTopnav">
+        
+        
+            
+        <div class="contenedor">
+          <div class="logo"><img src="Imagenes/png/formula-1-logo-7.png" alt="logo formula 1"></div>
+          <div class="btn">
+            <span onclick="openNav()"><a class="btn" href="#"><img src="Imagenes/png/usuario-de-perfil.png" alt="usuario perfil"></a></span>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                          <a href="usuario.html">Login</a>
+                          <a href="usuario.html">Registro</a>
+                          <a href="usuario.html">Soporte</a>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            
+            <div class="active"><a href="index.html">Inicio</a></div>
+            <div class="link"><a href="index.html">Inicio</a></div>
+            <a href="contacto.html">Contacto</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="marcado">Experiencias F1 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="contenedor">
+                        <a href="calendario.html">Calendario</a>
+                        <a href="pilotos_escuderias.html">Pilotos/escuderias</a>
+    
+                    </div>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">Servicios 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="contenedor">
+                       <a href="https://tickets.formula1.com/es" target="_blank" rel="noopener noreferrer">Boleteria</a>
+                        <a href="https://f1store2.formula1.com/en/?_s=bm-fi-f1-prtsite-F1Tickets-230720-jm" target="_blank" rel="noopener noreferrer">Tienda</a>
+    
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+        
+        
+  </header>
+
+<section>
+    
+    <div class="contenedor">
+        <h3 style="margin-top: 10px; font-size: 50px;">Todos Los competidores actuales</h3>
+        <hr>
+        <div class="gallery">
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto2.jfif" alt="Imagen 1">
+              <button class="accordion">Hunter</button>
+                <div class="panel">
+                <p>Logan Hunter Sargeant es un piloto de automovilismo estadounidense. Nacimiento: 31 de diciembre de 2000 (edad 22 años), Fort Lauderdale, Florida, Estados Unidos
+                    Equipo actual: Williams Racing</p>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto1.jfif" alt="Imagen 2">
+              <button class="accordion">Albon</button>
+                <div class="panel">
+                <p>Alexander Albon Ansusinha, más conocido como Alex Albon, es un piloto de automovilismo tailandés nacido en el Reino Unido.                                Nacimiento: 23 de marzo de 1996 (edad 27 años), Londres, Reino Unido
+                    Equipo actual: Williams Racing</p>
+                </div>
+
+              
+
+            </div>
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto3.jfif" alt="Imagen 3">
+              <button class="accordion">Tsunoda</button>
+                <div class="panel">
+                <p>Yuki Tsunoda es un piloto de automovilismo japonés. En 2018 ganó el Campeonato de Japón de Fórmula 4 y fue tercero del Campeonato de Fórmula 2 de la FIA en 2020 como miembro del Equipo Júnior de Red Bull.Nacimiento: 11 de mayo de 2000 (edad 23 años), Sagamihara, Prefectura de Kanagawa, Japón
+                    Equipo actual: Scuderia AlphaTauri</p>
+                </div>
+
+
+            </div>
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto4.jfif" alt="Imagen 4">
+              <button class="accordion">De Vries</button>
+              <div class="panel">
+                <p>Hendrik Johannes Nicasius de Vries, más conocido como Nyck de Vries, es un piloto de automovilismo neerlandés.​​ Nacimiento: 6 de febrero de 1995 (edad 28 años), Uitwellingerga, Países Bajos.   Equipo actual: Scuderia AlphaTauri</p>
+              </div>
+            </div>
+
+            <div class="item">
+
+                <img src="Imagenes/Pilotos/piloto5.jfif" alt="Imagen 4">
+                <button class="accordion">Russell</button>
+                <div class="panel">
+                  <p>George William Russell es un piloto de automovilismo británico.​ Fue campeón de GP3 Series en 2017 y de Fórmula 2 en 2018. Desde 2019 hasta 2021 compitió para Williams en Fórmula 1.                                Nacimiento: 15 de febrero de 1998 (edad 25 años), King's Lynn, Reino Unido
+                    Equipo actual: Mercedes AMG Petronas Motorsport</p>
+                </div>
+            </div>
+
+            <div class="item">
+
+                <img src="Imagenes/Pilotos/piloto6.jfif" alt="Imagen 4">
+                <button class="accordion">Hamilton</button>
+                <div class="panel">
+                  <p>Lewis Carl Davidson Larbalestier Hamilton​​ es un piloto británico de automovilismo. A partir de 2013, se convirtió en piloto de Mercedes, resultando campeón en 2014, 2015, 2017, 2018, 2019, 2020, igualando los 7 títulos mundiales de Michael Schumacher, y subcampeón en 2016 y 2021.Nacimiento: 7 de enero de 1985 (edad 38 años), Stevenage, Reino Unido     Equipo actual: Mercedes AMG Petronas Motorsport</p>
+                </div>
+            </div>
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto15.jfif" alt="Imagen 1">
+              <button class="accordion">Stroll</button>
+                <div class="panel">
+                <p>Lance Stroll, nacido como Lance Strulovitch, es un piloto de automovilismo canadiense.​    Nacimiento: 29 de octubre de 1998 (edad 24 años), Montreal, Canadá
+                    Equipos actuales: Aston Martin Aramco Cognizant Formula One Team, Racing Point F1 Team</p>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto16.jfif" alt="Imagen 2">
+              <button class="accordion">Alonso</button>
+                <div class="panel">
+                <p>Fernando Alonso Díaz es un piloto de automovilismo español, galardonado como Premio Príncipe de Asturias en 2005. Ha ganado dos veces el Campeonato Mundial de Fórmula 1 en 2005 y 2006, ​resultó subcampeón en 2010, 2012 y 2013, y obtuvo un tercer puesto en 2007.   Nacimiento: 29 de julio de 1981 (edad 41 años), Oviedo, España
+                    Equipo actual: Aston Martin Aramco Cognizant Formula One Team</p>
+                </div>
+
+              
+
+            </div>
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto17.jfif" alt="Imagen 3">
+              <button class="accordion">Perez</button>
+                <div class="panel">
+                <p>Sergio Michel Pérez Mendoza, también conocido como Checo Pérez, es un piloto de automovilismo mexicano. Actualmente es miembro de la Escudería Telmex.​   Nacimiento: 26 de enero de 1990 (edad 33 años), Guadalajara, México
+                    Equipos actuales: Red Bull Racing, Sahara Force India F1 Team, Racing Point F1 Team</p>
+                </div>
+
+
+            </div>
+
+            <div class="item">
+
+              <img src="Imagenes/Pilotos/piloto18.jfif" alt="Imagen 4">
+              <button class="accordion">Verstappen</button>
+              <div class="panel">
+                <p>Max Emilian Verstappen es un piloto de automovilismo neerlandés nacido en Bélgica.​ Fue campeón del Campeonato Mundial de Karting en 2013. Es piloto de Fórmula 1 desde 2015, debutando con la escudería Toro Rosso.               Nacimiento: 30 de septiembre de 1997 (edad 25 años), Hasselt, Bélgica.   Equipos actuales: Red Bull Racing,</p>
+              </div>
+            </div>
+
+            <div class="item">
+
+                <img src="Imagenes/Pilotos/piloto19.jfif" alt="Imagen 4">
+                <button class="accordion">Leclerc</button>
+                <div class="panel">
+                  <p>Charles Marc Hervé Perceval Leclerc, más conocido como Charles Leclerc, es un piloto de automovilismo monegasco.   Nacimiento: 16 de octubre de 1997 (edad 25 años), Montecarlo, Mónaco    Equipo actual: Scuderia Ferrari</p>
+                </div>
+            </div>
+
+            <div class="item">
+
+                <img src="Imagenes/Pilotos/piloto20.jfif" alt="Imagen 4">
+                <button class="accordion">Sainz</button>
+                <div class="panel">
+                  <p>Carlos Sainz Vázquez de Castro​, más conocido como Carlos Sainz Jr. o simplemente Carlos Sainz, es un piloto de automovilismo español.  Nacimiento: 1 de septiembre de 1994 (edad 28 años), Madrid, España. Equipo actual: Scuderia Ferrari</p>
+                </div>
+            </div>
+
+            <div class="item">
+
+                <img src="Imagenes/Pilotos/piloto7.jfif" alt="Imagen 1">
+                <button class="accordion">Magnussen</button>
+                  <div class="panel">
+                  <p>Kevin Magnussen es un piloto danés de automovilismo. En 2013 ganó la Formula Renault 3.5 Series siendo miembro del Programa de Jóvenes Pilotos de McLaren. ​Nacimiento: 5 de octubre de 1992 (edad 30 años), Roskilde, Dinamarca
+                    Equipo actual: Haas F1 Team</p>
+                  </div>
+  
+              </div>
+  
+              <div class="item">
+  
+                <img src="Imagenes/Pilotos/piloto8.jfif" alt="Imagen 2">
+                <button class="accordion">Hülkenberg</button>
+                  <div class="panel">
+                  <p>Nicolas Hülkenberg, o simplemente Nico Hülkenberg, es un piloto alemán de automovilismo.   Nacimiento: 19 de agosto de 1987 (edad 35 años), Emmerich am Rhein, Alemania
+                    Equipos actuales: Haas F1 Team, Racing Point F1 Team</p>
+                  </div>
+  
+                
+  
+              </div>
+  
+              <div class="item">
+  
+                <img src="Imagenes/Pilotos/piloto9.jfif" alt="Imagen 3">
+                <button class="accordion">Zhou</button>
+                  <div class="panel">
+                  <p>Guanyu Zhou es un piloto de automovilismo chino. Fue campeón del Campeonato Asiático de F3 y tercero en la Fórmula 2. Desde 2022 es piloto de Alfa Romeo en Fórmula 1, siendo el primer piloto de la República Popular China en la historia de la categoría. ​Nacimiento: 30 de mayo de 1999 (edad 24 años), Shanghái, China
+                    Equipo actual: Alfa Romeo F1 Team Stake</p>
+                  </div>
+  
+  
+              </div>
+  
+              <div class="item">
+  
+                <img src="Imagenes/Pilotos/piloto10.jfif" alt="Imagen 4">
+                <button class="accordion">Bottas</button>
+                <div class="panel">
+                  <p>Valtteri Viktor Bottas es un piloto de automovilismo finlandés.​ Debutó en Fórmula 1 en 2013 con el equipo Williams, donde se mantuvo hasta 2016.   Nacimiento: 28 de agosto de 1989 (edad 33 años), Nastola, Finlandia
+                    Equipo actual: Alfa Romeo F1 Team Stake</p>
+                </div>
+              </div>
+  
+              <div class="item">
+  
+                  <img src="Imagenes/Pilotos/piloto11.jfif" alt="Imagen 4">
+                  <button class="accordion">Norris</button>
+                  <div class="panel">
+                    <p>Lando Norris es un piloto de automovilismo británico que también posee la nacionalidad belga.​ Ha sido campeón del Campeonato Mundial de Karting en 2014, de la Fórmula 3 Europea en 2017 y subcampeón del Campeonato de Fórmula 2 de la FIA en 2018.​​ Desde 2019 es piloto de la escudería McLaren de Fórmula 1.                                                              Nacimiento: 13 de noviembre de 1999 (edad 23 años), Bristol, Reino Unido
+                        Equipo actual: McLaren</p>
+                  </div>
+              </div>
+  
+              <div class="item">
+  
+                  <img src="Imagenes/Pilotos/piloto12.jfif" alt="Imagen 4">
+                  <button class="accordion">Piastri</button>
+                  <div class="panel">
+                    <p>Oscar Piastri es un piloto de automovilismo australiano. En 2021 fue miembro de la Academia Alpine y piloto reserva de Alpine en 2022.​ En 2023 es piloto de McLaren en Fórmula 1.​                                                   Nacimiento: 6 de abril de 2001 (edad 22 años), Melbourne, Australia
+                        Equipo actual: McLaren</p>
+                  </div>
+              </div>
+              <div class="item">
+  
+                <img src="Imagenes/Pilotos/piloto13.jfif" alt="Imagen 4">
+                <button class="accordion">Gasly</button>
+                <div class="panel">
+                  <p>Pierre Gasly es un piloto de automovilismo francés. Fue campeón de la Eurocopa Fórmula Renault 2.0 en 2013 y de GP2 Series en 2016. Debutó en Toro Rosso en la temporada 2017 de Fórmula 1.                                          Nacimiento: 7 de febrero de 1996 (edad 27 años), Ruan, Francia
+                    Equipos actuales: Alpine F1 Team, Scuderia Toro Rosso</p>
+                </div>
+            </div>
+
+            <div class="item">
+
+                <img src="Imagenes/Pilotos/piloto14.jfif" alt="Imagen 4">
+                <button class="accordion">Ocon</button>
+                <div class="panel">
+                  <p>Esteban José Jean-Pierre Ocon-Khelfane, más conocido como Esteban Ocon, es un piloto francés de automovilismo.​ Fue campeón de Fórmula 3 Europea y GP3 Series.                                                                                   Nacimiento: 17 de septiembre de 1996 (edad 26 años), Évreux, Francia
+                    Equipos actuales: Alpine F1 Team, Sahara Force India F1 Team, Renault F1 Team</p>
+                </div>
+            </div>
+    </div>       
+</section>
+<footer>
+    <section id="newsletter">
+      <div class="contenedor">
+        <h3>Recibe todas las novedades de la F1 con nuestro newsletter</h3>
+        <form action="enviar.php" method="post">
+            <input type="email" name="" id="" placeholder="Ingresa tú mail">
+            <button type="submit" class="btn_news">Suscríbete</button>
+            
+
+        </form>
+      </div>
+
+ 
+      <section class="contr">
+        <div class="redes">
+            <a href="https://www.instagram.com/f1/" target="_blank" rel="noopener noreferrer"><img src="Imagenes/png/logo_instagram.png" alt="instagram"></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.youtube.com/user/formula1" target="_blank" rel="noopener noreferrer"><img src="Imagenes/png/Youtube_logo.png" alt="youtube"></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/Formula1/?locale=es_LA" target="_blank" rel="noopener noreferrer"><img src="Imagenes/png/facebook.png" alt="facebook"></a>
+        </div>
+        
+
+
+    </section>
+    
+
+
+  </footer>
+
+      
+      
+
+    
+  
+</body>
+<!--Menu Responsive-->
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+<!-- Menu Scroll -->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+<!-- Boton Calendario -->
+<script>
+function mes() {
+  document.getElementById("myDropdown").classList .toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.mesbtn')) {
+    var dropdowns = document.getElementsByClassName("mes-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!-- Accordion -->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<!-- Login -->
+<script>
+var modal = document.getElementById('id01');
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+var modal = document.getElementById('id02');
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+
+</html>

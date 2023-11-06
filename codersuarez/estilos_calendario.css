@@ -1,0 +1,181 @@
+
+
+
+#calendario{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.day-name{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.calendario{
+    text-align: center;
+    width: 100%;
+    background-color: #ccc;
+    
+}
+.calendario li{
+    text-align: right;
+    height: 100px;
+    padding: 30px;
+    border: #444 solid 2px;
+}
+.first-day{
+    grid-column-start: 3;
+
+}
+#first-day-a{
+    grid-column-start: 6;
+
+}
+#first-day-m{
+    grid-column-start: 1;
+
+}#first-day-j{
+    grid-column-start: 4;
+
+}
+.active{
+    display: none;
+}
+.practica{
+    background-color: green;
+}
+.clasificacion{
+    background-color: #f2cb05 ;
+}
+.competicion{
+    background-color: #f21b2d ;
+}
+.titulo{
+    font-size: 80px;
+    margin-left: 15px;
+}
+.titulo2{
+    font-size: 30px;
+}
+
+/* Boton de Mes */
+.mesbtn {
+    background-color: #f21b2d ;
+    color: white;
+    padding: 16px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mesbtn:hover, .mesbtn:focus {
+    background-color: black ;
+    color: #f2cb05;
+  }
+  
+  .mes{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .mes-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 600px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .mes-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+  }
+  
+  .mes a:hover {
+    background-color: black ;
+    color: #f2cb05;
+  }
+  
+  .show {
+    display: block;
+}
+
+
+
+/* ACOORDION */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 40px;
+    transition: 0.4s;
+  }
+  
+  .activo, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 15px 18px;
+    display: none;
+    background-color: black;
+    overflow: hidden;
+    font-size: 30px;
+    color: white;
+  }
+
+@media only screen and (max-width: 768px){
+    #calendario{
+        display: block;
+    }
+    .link{
+        background-color: white;
+    }
+    .calendario li{
+        height: 40px;
+        padding: 0;
+        border: solid 1px;
+    }
+    .day-name{
+        font-size: 15px;
+    }
+    .titulo{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .mes{
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .mesbtn{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .mes-content{
+        width: 200px;
+    }
+    .mes-content a{
+        font-size: 20px;
+    }
+
+}
+    
+
