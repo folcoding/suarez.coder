@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos_calendario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagenes/png/logo-F1.png" type="image/x-icon">
+    <title>Formula 1</title>
+</head>
+<body>
+    <header class="header">
+      <div class="topnav" id="myTopnav">
+        
+        
+            
+        <div class="contenedor">
+          <div class="logo"><img src="Imagenes/png/formula-1-logo-7.png" alt="logo formula 1"></div>
+          <div class="btn">
+            <span onclick="openNav()"><a class="btn" href="#"><img src="Imagenes/png/usuario-de-perfil.png" alt="usuario perfil"></a></span>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                          <a href="usuario.html">Login</a>
+                          <a href="usuario.html">Registro</a>
+                          <a href="usuario.html">Soporte</a>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            
+            <div class="active"><a href="index.html">Inicio</a></div>
+            <div class="link"><a href="index.html">Inicio</a></div>
+            <a href="contacto.html">Contacto</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="marcado">Experiencias F1 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="contenedor">
+                        <a href="calendario.html">Calendario</a>
+                        <a href="pilotos_escuderias.html">Pilotos/escuderias</a>
+    
+                    </div>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">Servicios 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="contenedor">
+                       <a href="https://tickets.formula1.com/es" target="_blank" rel="noopener noreferrer">Boleteria</a>
+                        <a href="https://f1store2.formula1.com/en/?_s=bm-fi-f1-prtsite-F1Tickets-230720-jm" target="_blank" rel="noopener noreferrer">Tienda</a>
+    
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+        
+        
+  </header>
+            <section id="calendario">
+                <div class="contenedor">
+                    <div class="titulo">
+                        <h3>Calendario 2023</h3>
+
+                    </div>
+                    <hr>
+                    
+                    
+                    <div class="mes">
+                        <button onclick="mes()" class="mesbtn">Primer Mitad de Año</button>
+                        <div id="myDropdown" class="mes-content">
+                        <a href="calendario.html">Marzo 2023</a>
+                        <a href="calendario-abril.html">Abril 2023</a>
+                        <a href="calendario-mayo.html">Mayo 2023</a>
+                        <a href="calendario-junio.html">Junio 2023</a>
+                        <a href="#proximamente">Segunda Mitad de Año</a>
+                        
+                        </div>
+                    </div>
+                    <div class="titulo2"><h2>Abril 2023</h2></div>
+                    <div class="calendario">
+                        <ol>
+                            <li class="day-name">Lun</li>
+                            <li class="day-name">Mar</li>
+                            <li class="day-name">Mie</li>
+                            <li class="day-name">Jue</li>
+                            <li class="day-name">Vie</li>
+                            <li class="day-name">Sab</li>
+                            <li class="day-name">Dom</li>
+                            <li id="first-day-a" class="clasificacion">1</li>
+                            <li class="competicion">2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li class="practica">28</li>
+                            <li class="clasificacion">29</li>
+                            <li class="competicion">30</li>
+                        </ol>
+                    </div>
+
+                </div>
+                
+            </section>
+            <section id="informacion" class="contenedor">
+                <button class="accordion">GP Australia (31, 1 y 2 De marzo)</button>
+                <div class="panel">
+                    <h4 style="color: #f2cb05;">GP de Australia</h4>
+                    <p>
+                        El Gran Premio de Australia de 2023 fue la tercera ronda de la temporada 2023 de Fórmula 1. Se disputó los días 31 de marzo, 1 y 2 de abril en el circuito de Albert Park, ubicado en Melbourne (Australia).
+                    </p>
+                    <p>Fernando Alonso, Lewis Hamilton, Valtteri Bottas y Charles Leclerc son los únicos pilotos activos que lograron ganar en Australia</p>
+                    <h4 style="color: #f2cb05;">clasificacion</h4>
+                    <p>La clasificación del Gran Premio de Australia 2023 el sábado 1 de abril en el Albert Park, a partir de las 07:00.</p>
+                    <h4 style="color: #f2cb05;">Carrera</h4>
+                    <p>Se disputo el Domingo 2 de Marzo a las 02:00 de la mañana debido a la diferencia horaria.</p>
+                    <h4 style="color: #f2cb05;">Pista</h4>
+                    <img style="width: 100%;" src="Imagenes/jpg/formula-1-australian-gp.jpg" alt="Circuito Australia">
+                    <h4 style="color: #f2cb05;">Podio Actual</h4>
+                    <p>Max Verstappen fue el ganador de la carrera, seguido de Lewis Hamilton y Fernando Alonso.La carrera terminó con el mayor número de banderas rojas, con tres.Adicionalmente, la colisión múltiple en la vuelta 57 está en el tercer puesto de colisiones múltiples de la curva 1, siendo superado por la colisión múltiple de la versión de 2008 con 5 eliminados en colisión y por la de la versión de 2002, en donde dejaron 8 pilotos eliminados</p>
+                </div>
+
+                <button class="accordion">GP Azerbaiyan</button>
+                <div class="panel">
+                    <h4 style="color: #f2cb05;">GP Azerbaiyan</h4>
+                    <p>
+                        El Gran Premio de Azerbaiyán de 2023 fue la cuarta ronda de la temporada 2023 de Fórmula 1. Se disputó los días 28, 29 y 30 de abril en el circuito callejero de Bakú, ubicado en la ciudad del mismo nombre (Azerbaiyán).
+                    </p>
+                    <p>Lewis Hamilton, Valtteri Bottas, Sergio Pérez y Max Verstappen son los únicos pilotos activos que lograron ganar en Azerbaiyán.</p>
+                    <h4 style="color: #f2cb05;">clasificacion</h4>
+                    <p>Se disputo la clasificacion el viernes 28 de abril a las 15:00</p>
+                    <h4 style="color: #f2cb05;">Carrera</h4>
+                    <p>Se disputo el Domingo 29 de abril a las 08:00hs.</p>
+                    <h4 style="color: #f2cb05;">Pista</h4>
+                    <img style="width: 100%;" src="Imagenes/jpg/formula-1-gpazerbaiyan.jpg" alt="Circuito Azerbaiyan">
+                    <h4 style="color: #f2cb05;">Podio Actual</h4>
+                    <p>Sergio Pérez fue el ganador de la carrera, el segundo para él como piloto, seguido de su compañero de equipo Max Verstappen y Charles Leclerc.</p>
+                </div>
+
+            </section>
+            <footer>
+                <section id="newsletter">
+                  <div class="contenedor">
+                    <h3>Recibe todas las novedades de la F1 con nuestro newsletter</h3>
+                    <form action="enviar.php" method="post">
+                        <input type="email" name="" id="" placeholder="Ingresa tú mail">
+                        <button type="submit" class="btn_news">Suscríbete</button>
+                        
+          
+                    </form>
+                  </div>
+          
+                </section>
+                
+             
+                  <section class="contr">
+                    <div class="redes">
+                        <a href="https://www.instagram.com/f1/" target="_blank" rel="noopener noreferrer"><img src="Imagenes/png/logo_instagram.png" alt="instagram"></a>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.youtube.com/user/formula1" target="_blank" rel="noopener noreferrer"><img src="Imagenes/png/Youtube_logo.png" alt="youtube"></a>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/Formula1/?locale=es_LA" target="_blank" rel="noopener noreferrer"><img src="Imagenes/png/facebook.png" alt="facebook"></a>
+                    </div>
+                    
+          
+          
+                </section>
+                
+          
+          
+            </footer>
+    
+
+    
+    
+</body>
+<!--Menu Responsive-->
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+<!-- Menu Scroll -->
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+<!-- Boton Calendario -->
+<script>
+  function mes() {
+    document.getElementById("myDropdown").classList .toggle("show");
+  }
+
+  window.onclick = function(event) {
+    if (!event.target.matches('.mesbtn')) {
+      var dropdowns = document.getElementsByClassName("mes-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+<!-- Accordion -->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+</script>
+<!-- Login -->
+<script>
+  var modal = document.getElementById('id01');
+  
+ 
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+<script>
+  var modal = document.getElementById('id02');
+  
+ 
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+
+</script>
+
+</html>
